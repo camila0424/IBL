@@ -1,10 +1,10 @@
-import "../styles/App.scss";
-import React from "react";
+import "../styles/tailwind.css";
+import Header from "./components/layout/Header";
 
 function App() {
   return (
     <>
-      <p>aqui va la pag</p>
+      <Header />
     </>
   );
 }
