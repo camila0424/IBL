@@ -1,0 +1,51 @@
+{
+  "serviciosPrincipales": [
+    {
+      "id": 1,
+      "titulo": "Transporte vía marítima",
+      "imagen": "/images/servicios/maritimo.png",
+      "descripcion": "Carga marítimo internacional – FCL, LCL, contenedores especiales. Ofrecemos soluciones integrales de transporte marítimo internacional, adaptadas a las necesidades de tu carga y de tu negocio. Ya sea un contenedor completo (FCL) exclusivos para tu carga, garantizando seguridad y tiempos óptimos, una consolidación de carga (LCL) que optimizan tus costos sin comprometer la eficiencia o un contenedor especial diseñados para mercancías fuera de medida, refrigeradas, nos encargamos de todo el proceso con eficiencia, seguridad y transparencia. Nuestro equipo de expertos coordina cada detalle, desde la recogida hasta la entrega final, asegurando que tu carga llegue a tiempo, en perfectas condiciones y al mejor costo posible."
+    },
+    {
+      "id": 2,
+      "titulo": "Transporte vía aérea",
+      "imagen": "/images/servicios/aerea.png",
+      "descripcion": "Hacemos que tu carga vuele con total seguridad con soluciones rápidas y personalizadas, ajustadas a tus plazos y necesidades logísticas. Trabajamos con las principales aerolíneas y una red global de agentes para garantizar entregas puntuales, seguras y trazables en cualquier destino del mundo. Desde pequeños paquetes urgentes hasta grandes proyectos industriales, gestionamos cada envío con precisión, cuidado y compromiso."
+    },
+    {
+      "id": 3,
+      "titulo": "Transporte terrestre",
+      "imagen": "/images/servicios/terrestre.png",
+      "descripcion": "Conectamos cada destino con seguridad y confianza. Nuestro servicio de transporte terrestre nacional y local está diseñado para ofrecer soluciones logísticas eficientes que se adaptan a las necesidades de cada cliente. Ya sea para movimientos locales dentro de la ciudad o envíos a cualquier punto del país, ofrecemos un servicio confiable y flexible."
+    },
+    {
+      "id": 4,
+      "titulo": "Agendamiento aduanero",
+      "imagen": "/images/servicios/aduanas.png",
+      "descripcion": "El éxito de cada operación depende de una gestión aduanera precisa y rápida, por eso, ponemos a su disposición un equipo especializado que se encarga de todas las formalidades y requisitos aduaneros, garantizando el cumplimiento normativo y la liberación rápida de su carga. Nos ocupamos de la documentación, clasificación arancelaria, permisos especiales y asesoría personalizada en importaciones y exportaciones, para mantener su cadena logística siempre en movimiento."
+    },
+    {
+      "id": 5,
+      "titulo": "Seguro para mercancías",
+      "imagen": "/images/servicios/seguro.png",
+      "descripcion": "Sabemos que tu carga es valiosa y que cada envío representa tiempo e inversión. Por eso ofrecemos seguro para mercancías, protegiendo tus bienes frente a cualquier eventualidad durante el transporte, ya sea marítimo, aéreo o terrestre. Nuestro servicio te brinda tranquilidad y respaldo, asegurando que tu carga llegue a su destino con la cobertura adecuada frente a daños, pérdidas o imprevistos. Nos encargamos de toda la gestión del seguro, facilitando procesos confiables."
+    }
+  ],
+  "otrosServicios": [
+    {
+      "id": 6,
+      "titulo": "Gestión de compras internacionales",
+      "descripcion": "Ofrecemos un servicio integral de gestión de compras internacionales: localizamos proveedores confiables, negociamos en su nombre, supervisamos la calidad y coordinamos el envío hasta su destino."
+    },
+    {
+      "id": 7,
+      "titulo": "Etiquetado",
+      "descripcion": "Ofrecemos etiquetado personalizado, con códigos de barra o branding del cliente, cumpliendo con estándares internacionales de etiquetado para exportaciones como FDA, CE, o retailer (Amazon FBA, Walmart, etc.). Clases de etiquetado: Termoadherido, Adhesivo, Cocido."
+    },
+    {
+      "id": 8,
+      "titulo": "Inspección Preembarque (PSI)",
+      "descripcion": "Nos aseguramos de que su mercancía cumpla con los estándares acordados antes del despacho, verificamos cantidades, calidad, empaque y documentación, y le entregamos un informe detallado con evidencia fotográfica. Este servicio reduce reclamos, evita devoluciones y garantiza su satisfacción."
+    }
+  ]
+}
