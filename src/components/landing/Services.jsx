@@ -8,20 +8,20 @@ function Services() {
   useEffect(() => {
     fetch("/data/services.json")
       .then((res) => res.json())
-      .then((data) => setServices(data.serviciosPrincipales)) // ⚠ usar data.serviciosPrincipales
+      .then((data) => setServices(data.serviciosPrincipales))
       .catch((err) => console.error("Error cargando servicios:", err));
   }, []);
 
   return (
     <section id="servicios" className="bg-blue-950 py-16">
-      <div className="container mx-auto px-4">
-        {/* Título */}
-        <h2 className="bg-white text-blue-950 text-3xl font-bold py-4 px-6 mb-12 inline-block font-roboto">
+      <div className="container mx-auto px-4 flex flex-col items-center">
+        {/* Título centrado y pequeño */}
+        <h2 className="bg-white text-blue-950 text-3xl font-bold mb-12 font-roboto px-4 py-2 rounded inline-block text-center shadow-md">
           Nuestros Servicios
         </h2>
 
         {/* Tarjetas de servicios */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 w-full">
           {Array.isArray(services) &&
             services.map((service) => (
               <div
@@ -36,7 +36,7 @@ function Services() {
                 <h3 className="text-blue-950 text-lg font-semibold mb-4 font-roboto">
                   {service.titulo}
                 </h3>
-                {/* Contenedor del espacio flexible */}
+                {/* Espacio flexible para que todos los botones queden a la misma altura */}
                 <div className="flex-grow"></div>
                 <button
                   onClick={() => navigate(`/services/${service.id}`)}
