@@ -15,10 +15,10 @@ function Hero() {
 
       {/* 💬 Texto centrado */}
       <div className="relative flex items-center justify-center h-full">
-        <h1 className="text-white mt-10  text-4xl md:text-6xl font-bold text-center px-4 leading-tight">
+        <h1 className="text-white mt-10  text-4xl sm:font-bold md:text-6xl font-bold text-center px-4 leading-tight">
           Conectamos tu carga con el mundo,
           <br />
-          <span className="font-semibold text-white">
+          <span className="sm:font-semibold  font-semibold text-white">
             desde y hacia Panamá.
           </span>
         </h1>
