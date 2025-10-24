@@ -33,7 +33,7 @@ function Services() {
                   alt={service.titulo}
                   className="w-full h-40 object-cover rounded-md mb-4"
                 />
-                <h3 className="text-blue-950 text-lg font-semibold mb-4 font-roboto">
+                <h3 className="text-blue-900 text-lg font-semibold mb-4 font-roboto">
                   {service.titulo}
                 </h3>
                 {/* Espacio flexible para que todos los botones queden a la misma altura */}
@@ -51,7 +51,7 @@ function Services() {
         {/* Botón "Otros Servicios" */}
         <div className="mt-12 flex justify-center">
           <button
-            className="bg-white text-blue-950 px-6 py-3 rounded font-roboto hover:bg-gray-100 transition"
+            className="bg-white text-blue-900 px-6 py-3 rounded font-roboto hover:bg-gray-100 transition"
             onClick={() => navigate("/otros-servicios")}
           >
             Otros Servicios
