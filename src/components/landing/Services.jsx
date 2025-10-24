@@ -16,7 +16,7 @@ function Services() {
     <section id="servicios" className="bg-red-700 py-16 scroll-mt-24">
       <div className="container mx-auto px-4 flex flex-col items-center">
         {/* Título centrado y pequeño */}
-        <h2 className="bg-white text-blue-950 text-3xl font-bold mb-12 font-roboto px-4 py-2 rounded inline-block text-center shadow-md">
+        <h2 className="bg-white text-blue-900 text-3xl font-bold mb-12 font-roboto px-4 py-2 rounded inline-block text-center shadow-md">
           Nuestros Servicios
         </h2>
 
@@ -40,7 +40,7 @@ function Services() {
                 <div className="flex grow"></div>
                 <button
                   onClick={() => navigate(`/services/${service.id}`)}
-                  className="bg-blue-950 text-white px-4 py-2 rounded font-roboto hover:bg-blue-800 transition mb-2"
+                  className="bg-blue-900 text-white px-4 py-2 rounded font-roboto hover:bg-blue-800 transition mb-2"
                 >
                   Saber más
                 </button>

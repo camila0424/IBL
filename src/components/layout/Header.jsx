@@ -54,7 +54,7 @@ function Header() {
             alt="Logo IBL"
             className="h-6 sm:h-8 md:h-12 lg:h-14 transition-transform duration-500 hover:scale-110"
           />
-          <span className="text-blue-950 font-semibold tracking-wide mt-1 sm:mt-2 md:mt-1 lg:mt-5 sm:mr-4 md:text-lg lg:text-xl">
+          <span className="text-blue-900 font-semibold tracking-wide mt-1 sm:mt-2 md:mt-1 lg:mt-5 sm:mr-4 md:text-lg lg:text-xl">
             INTERNATIONAL BUSINESS LOGISTICS S.A.
           </span>
         </a>
@@ -77,7 +77,7 @@ function Header() {
         </button>
 
         {/* Menú Desktop */}
-        <ul className="hidden md:flex flex-row gap-8 text-lg text-blue-950">
+        <ul className="hidden md:flex flex-row gap-8 text-lg text-blue-900">
           {menuItems.map((item) => (
             <li key={item}>
               <a

@@ -30,7 +30,7 @@ function Who_we_are_landing() {
 
         <a
           href="/pagina-de-detalle" // <- cambia al enlace de destino
-          className="inline-block px-6 py-3 bg-blue-950 text-white font-semibold rounded hover:bg-gray-600 transition-colors"
+          className="inline-block px-6 py-3 bg-blue-900 text-white font-semibold rounded hover:bg-gray-600 transition-colors"
         >
           Saber más
         </a>

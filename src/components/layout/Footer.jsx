@@ -53,8 +53,8 @@ function Footer() {
         <div className="mb-4 md:mb-0">Colón, Panamá</div>
 
         {/* Licencia de creación */}
-        <div className="text-sm">
-          &copy; {new Date().getFullYear()} Página weeb creada por Camila Bedoya
+        <div className="text-sm text-gray-300">
+          &copy; {new Date().getFullYear()} Creado por Camila Bedoya
           <br />
           Todos los derechos reservados.
         </div>
