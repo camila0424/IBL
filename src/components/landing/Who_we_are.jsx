@@ -4,7 +4,7 @@ function Who_we_are_landing() {
   return (
     <section
       id="nosotros"
-      className="flex flex-col md:flex-row items-center justify-between px-8 md:px-20 py-16 bg-white"
+      className="flex flex-col md:flex-row items-center justify-between px-8 md:px-20 py-16 bg-white scroll-mt-24"
     >
       {/* Logo de la empresa */}
       <div className="mb-8 md:mb-0 md:mr-10 flex shrink-0">

@@ -1,6 +1,9 @@
 function Hero() {
   return (
-    <section id="inicio" className="relative w-full h-screen overflow-hidden">
+    <section
+      id="inicio"
+      className="relative w-full h-screen overflow-hidden scroll-mt-24"
+    >
       {/* 🎥 Video de fondo */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"

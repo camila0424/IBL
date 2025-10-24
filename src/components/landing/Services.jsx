@@ -13,7 +13,7 @@ function Services() {
   }, []);
 
   return (
-    <section id="servicios" className="bg-blue-950 py-16">
+    <section id="servicios" className="bg-red-700 py-16 scroll-mt-24">
       <div className="container mx-auto px-4 flex flex-col items-center">
         {/* Título centrado y pequeño */}
         <h2 className="bg-white text-blue-950 text-3xl font-bold mb-12 font-roboto px-4 py-2 rounded inline-block text-center shadow-md">
@@ -37,7 +37,7 @@ function Services() {
                   {service.titulo}
                 </h3>
                 {/* Espacio flexible para que todos los botones queden a la misma altura */}
-                <div className="flex-grow"></div>
+                <div className="flex grow"></div>
                 <button
                   onClick={() => navigate(`/services/${service.id}`)}
                   className="bg-blue-950 text-white px-4 py-2 rounded font-roboto hover:bg-blue-800 transition mb-2"
