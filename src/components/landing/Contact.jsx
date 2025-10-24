@@ -89,7 +89,7 @@ function Contact() {
             </a>
 
             <a
-              href="#"
+              href="https://www.instagram.com/iblsa_panama?igsh=MXBjYm4waGg0d2QyMw=="
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 text-blue-700 hover:text-blue-900 transition"
