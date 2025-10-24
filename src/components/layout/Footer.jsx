@@ -10,7 +10,7 @@ function Footer() {
             href="#"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 text-white hover:text-blue-900 transition"
+            className="flex items-center gap-2 text-white hover:text-blue-400 transition"
           >
             <img
               src="/images/social/facebook-icon.svg"
@@ -24,7 +24,7 @@ function Footer() {
             href="#"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 text-white hover:text-blue-900 transition"
+            className="flex items-center gap-2 text-white hover:text-blue-400 transition"
           >
             <img
               src="/images/social/instagram-icon.svg"
@@ -38,7 +38,7 @@ function Footer() {
             href="https://wa.me/50765309792?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios."
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-white hover:text-blue-900 transition"
+            className="flex items-center gap-2 text-white hover:text-blue-400 transition"
           >
             <img
               src="/images/social/whatsapp.svg"
